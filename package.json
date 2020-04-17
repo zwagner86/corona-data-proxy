@@ -1,0 +1,28 @@
+{
+  "name": "corona-data-proxy",
+  "version": "1.0.0",
+  "description": "Express Proxy for Corona Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwagner86/corona-data-proxy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zwagner86/corona-data-proxy/issues"
+  },
+  "homepage": "https://github.com/zwagner86/corona-data-proxy#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.3"
+  }
+}
